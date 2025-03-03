@@ -21,3 +21,8 @@ Arrays
 Objects
 Functions
 */
+
+
+const s1=Symbol('56')
+const s2=Symbol('56')
+console.log(s1===s2);
