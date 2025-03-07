@@ -51,3 +51,8 @@ user.f1()
 
 const person=new Object()
 const person2={}
+
+const numbers = [1, 2, 3];
+
+const [a, b, c] = numbers;
+console.log(a,b,c);
