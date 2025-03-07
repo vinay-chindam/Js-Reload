@@ -34,8 +34,58 @@ function addone(one){
 const addTwo=function(two){
     return two+2
 }
-console.log(addTwo(5));
+/* console.log(addTwo(5));
 
-//Arrow functions in js
+//Arrow functions in 
+//this keyword  on node 
+console.log(this); */
 
+function saihello(){
+    console.log("hello jee")
+}
+const saihello2=()=>{
+    console.log("hello jee in arrow function");
+    
+}
+saihello()
+saihello2()
+
+
+/* 
+setInterval(()=>{
+    console.log("hello jee in set interval");
+    
+},1000) */
+
+
+const addNums=(n1,n2)=>{
+    return n1+n2
+}
+
+
+const addNums2=(n1,n2)=>n1+n2
+
+console.log(addNums(2,8));
+
+console.log(addNums2(2,8));
+const arr = [2, 4, 6, 8];
+arr.forEach((ele) => {
+  process.stdout.write(ele.toString()+" "); // Ensure it's a string
+  });
+
+  console.log();
+
+//iife immediately invoked functional execution
+
+(
+    function say(){
+        console.log("said");
+        
+    }
+)()
+
+
+
+
+  
 
