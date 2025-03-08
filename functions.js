@@ -84,7 +84,15 @@ arr.forEach((ele) => {
     }
 )()
 
+//Global execution context
+//Functional execution context
 
+
+/*
+
+Memory Creation phase
+Execution Phase
+*/
 
 
   
