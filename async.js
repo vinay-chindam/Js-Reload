@@ -1,0 +1,1 @@
+//defalult js is synchronous and single threaded
