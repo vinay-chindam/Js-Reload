@@ -72,3 +72,14 @@ p2.finally(()=>{
     console.log("in p2 finally");
     
 })
+
+
+
+/*
+API(Application programmable inerface)
+
+It is set of rules and protocals of how two applications or software systems communicate
+Url is the address of the API
+
+Resaurent Example
+*/
