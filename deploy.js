@@ -15,3 +15,11 @@ https://tasty-go-admin.onrender.com
 frontend
 https://tasty-go-frontend.onrender.com
 */ 
+
+
+/*
+shopping cart
+
+https://shopping-cart-fvbr.onrender.com/
+
+*/
