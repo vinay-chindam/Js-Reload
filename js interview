@@ -1,0 +1,8 @@
+
+
+Temporal Dead Zone (TDZ)
+Hoisting
+IIFE (immediately invoked functional execution)
+Global Execution context
+  --->creation phase (memory phase)
+  --->execution phase (code phase)
