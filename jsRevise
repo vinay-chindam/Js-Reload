@@ -1,0 +1,91 @@
+Hoisting
+let Var Const
+primitives are immutable 
+non primitives are mutable
+
+undefined:In JavaScript, undefined is a primitive value that represents the absence of an assigned value. 
+        It is automatically assigned to variables that are declared but not initialized.
+
+Symbol data type
+Map method
+
+Event Propagation
+Event bubbling 
+Event Capturing
+
+
+Common Higher-Order Functions in JavaScript
+map() → Transforms each element in an array.
+
+filter() → Returns elements that meet a condition.
+
+reduce() → Accumulates values into a single result.
+
+forEach() → Executes a function for each element.
+
+find() → Finds the first element that meets a condition.
+
+IIFE
+
+(function() {
+  console.log("This function runs immediately!");
+})();
+
+
+Closures in js :Inner Functions retaining values of outer functions even after the execution of outer funciton has comleted: private variables in js
+
+SetTimeout 
+SetInterval
+ClearTimeout 
+ClearInterval
+
+
+Promises in js:
+
+      In JavaScript, a Promise is an object that represents the eventual completion (or failure) of an asynchronous operation.
+      It allows you to handle operations that take time, such as fetching data from an API, reading files,
+      or waiting for user input, without blocking the execution of other code.
+
+
+
+    States of a Promise
+      A Promise can be in one of three states:
+      
+      Pending – The operation is still in progress.
+      
+      Fulfilled – The operation was successful, and the Promise returns a value.
+      
+      Rejected – The operation failed, and the Promise returns an error.
+
+
+        let myPromise = new Promise((resolve, reject) => {
+          let success = true; // Simulating success or failure
+        
+          if (success) {
+            resolve("Operation successful!");
+          } else {
+            reject("Operation failed!");
+          }
+        });
+        
+        myPromise
+          .then(result => console.log(result)) // Handles success
+          .catch(error => console.error(error)); // Handles failure
+
+
+
+Event Delegation 
+Applying events on parent component rather than on child elements and leveraging event bubblig
+
+Event Loop (Philliph Robert)
+
+
+
+
+
+
+
+
+
+
+
