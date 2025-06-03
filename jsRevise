@@ -1,3 +1,10 @@
+What is java Script ???
+        Single Threaded
+        Non Blocking
+        Asynchronous
+        Concurrent
+
+
 Hoisting
 let Var Const
 primitives are immutable 
@@ -77,7 +84,55 @@ Promises in js:
 Event Delegation 
 Applying events on parent component rather than on child elements and leveraging event bubblig
 
-Event Loop (Philliph Robert)
+Event Loop (Philliph Robert):
+
+        Call Stack
+        WebApi
+        Task Queue
+        Asynchronous code
+        Event loop monitors call stack ,whenrever stack is empty it pushes first item in queue on to stack
+
+Currying in java Script:
+Currying in JavaScript is a functional programming technique where a function is transformed into a sequence of functions,
+each taking a single argument. Instead of calling a function with multiple parameters at once, currying allows you to call it one argument at a time.
+
+
+Generator Function in js:
+        Generator functions in JavaScript are special functions that allow you to pause execution and resume it later.
+        They are useful for handling iterators, lazy evaluation, and asynchronous programming.
+
+        function* generateNumbers() {
+          yield 1;
+          yield 2;
+          yield 3;
+        }
+        
+        const generator = generateNumbers();
+        
+        console.log(generator.next()); // { value: 1, done: false }
+        console.log(generator.next()); // { value: 2, done: false }
+        console.log(generator.next()); // { value: 3, done: false }
+        console.log(generator.next()); // { value: undefined, done: true }
+
+
+Shallow Copy
+Deep Copy
+
+
+
+
+
+
+
+
+
+
+
+Week Maps
+Week Sets
+
+
+
 
 
 
