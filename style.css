@@ -1,0 +1,107 @@
+
+
+HTML:
+
+
+-->docType:  html version
+-->meta tags in thml
+  Meta Tags in HTML: Enhancing Web Pages
+Meta tags provide metadata about a webpage, helping browsers, search engines, and social media platforms interpret your content correctly. They are placed inside the <head> section of an HTML document.
+  char set
+  viewport 
+  description
+
+-->Tags vs elements in html
+-->semantic tags
+
+
+-->Div vs span (block vs inline elements)
+--Relative vs Absolute URLs
+-->SEO( search engine optimization)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Box model
+  content 
+  padding
+  border
+  margin
+
+padding vs border
+
+visibility hidden (Layout remains but element stays hidden)
+display none ( removes elements completeyly form layout)
+
+position variables:
+  Relative (Relative to it self)
+  Absolute( relative to it nearest ansestor)
+  fixed(Fixed to viewport)
+  Sticky (Stays relative for a threshold and   upon scroll after that stays fixed)
+
+
+Inline Css
+Internal Css
+External Css
+
+
+Pseudo classes in css:
+  CSS pseudo-classes and pseudo-elements allow you to style elements based on their state or specific parts of an element.
+  hover
+  focus 
+  nth child etc
+
+
+Specificity in Css
+It is the way of targetting various elements  to style them
+
+if various selectors target the same eelemt , then specificity is used to determine which style should be applied
+
+Block
+Inline
+Inline-block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Needs a look:
+
+Combinators in css
+Grid Vs Flexbox
