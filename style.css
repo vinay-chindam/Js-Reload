@@ -77,6 +77,11 @@ Pseudo classes in css:
   focus 
   nth child etc
 
+Pseudo elements:(to style specific part of element):  
+  before 
+  after
+  first letter 
+  first line 
 
 Specificity in Css
 It is the way of targetting various elements  to style them
