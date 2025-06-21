@@ -1,0 +1,48 @@
+🧱 DDL – Data Definition Language
+Used to define and modify the structure of database objects.
+
+CREATE – Create tables, views, indexes, etc.
+
+ALTER – Modify existing database objects
+
+DROP – Delete database objects
+
+TRUNCATE – Remove all records from a table (faster than DELETE)
+
+RENAME – Rename database objects
+
+COMMENT – Add comments to schema objects
+
+✏️ DML – Data Manipulation Language
+Used to manipulate data stored in tables.
+
+INSERT – Add new records
+
+UPDATE – Modify existing records
+
+DELETE – Remove records
+
+MERGE – Combine insert/update logic (in some databases)
+
+🔍 DQL – Data Query Language
+Used to query and retrieve data.
+
+SELECT – Fetch data from one or more tables
+
+🔐 DCL – Data Control Language
+Used to control access to data.
+
+GRANT – Give user access privileges
+
+REVOKE – Remove user access privileges
+
+🔄 TCL – Transaction Control Language
+Used to manage transactions in a database.
+
+COMMIT – Save changes permanently
+
+ROLLBACK – Undo changes since last commit
+
+SAVEPOINT – Set a point to roll back to
+
+SET TRANSACTION – Define transaction properties
