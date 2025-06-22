@@ -1,2 +1,70 @@
 
 git basics
+
+
+Track The Changes
+Collaborate
+Roll back to history
+
+--------------------------------------------------------------------------------------------------------
+Clone
+git clone https://github.com/user/repo.git
+It creates a local copy of a remote repository
+--------------------------------------------------------------------------------------------------------
+
+Status
+git status
+
+You’ll see:
+
+    Which branch you’re on
+    
+    Whether your branch is ahead/behind the remote
+    
+    Which files are:
+    
+    Untracked (new files Git doesn’t know about)
+    
+    Modified but unstaged
+    
+    Staged and ready to commit
+
+--------------------------------------------------------------------------------------------------------
+
+add 
+git add filename
+
+The git add command is used to move changes from your working directory 
+into the staging area, preparing them to be committed.
+
+--------------------------------------------------------------------------------------------------------
+
+commit
+git commit -m "first commit"
+
+git commit is how you save a snapshot of your project’s current state. 
+It takes everything you’ve staged (with git add) and
+records it in your local Git repository with a message describing what changed.
+
+
+Git creates a commit object with:
+
+      A unique ID (SHA-1 hash)
+      
+      Your commit message
+      
+      Author info and timestamp
+      
+      A pointer to the previous commit
+
+The HEAD pointer moves to this new commit
+
+Your staging area is cleared — ready for the next round of changes
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Push
+git push origin main
+
