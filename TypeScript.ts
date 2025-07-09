@@ -26,3 +26,15 @@ const func=(num:number):number=>{
 
 Objects in TS:
 
+function check(num:number):{}{
+
+  return {age:num}
+}
+
+never in ts:
+never indicates a funciton never returns something
+mostly used with functions which throws exceptions
+and also with funcitons which runs for ever they never return something so its return type is never
+
+Tuples in TS:
+Special kind of array
