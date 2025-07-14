@@ -5,3 +5,5 @@ Chrome:V8
 firefox:Spyder monkey
 
 LTs even odd theory
+
+A REST API is an interface that allows clients (like browsers or mobile apps) to communicate with servers using standard HTTP methods like GET, POST, PUT, and DELETE.
