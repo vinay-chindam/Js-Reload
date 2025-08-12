@@ -1,4 +1,42 @@
-       
+
+class TrieNode:
+    def __init__ (self):
+        self.children={}
+        self.isEnd=False
+
+class Trie:
+    def __init__ (self):
+        self.root=TrieNode()
+        
+    def insert(self,word):
+        temp=self.root
+        for ch in word:
+            if(ch not in temp.children ):
+                temp.children[ch]=TrieNode()
+            temp=temp.children[ch]
+        temp.isEnd=True
+        
+    def search(self,word):
+        temp=self.root
+        for ch in word:
+            if(ch not in temp.children):
+                return False
+            temp=temp.children[ch]
+        return temp.isEnd
+    
+    def startswith(self,word):
+        temp=self.root
+        for ch in word:
+            if(ch not in temp.children):
+                return False
+            temp=temp.children[ch]
+        return True
+        
+        
+        
+        
+        
+        
         
         
 class TrieNode:
