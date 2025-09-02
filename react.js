@@ -62,3 +62,65 @@ Class Component Method	Functional Hook Equivalent
 componentDidMount	useEffect(() => {}, [])
 componentDidUpdate	useEffect(() => {}, [deps])
 componentWillUnmount	useEffect(() => return () => {}, [])
+
+----------------------------------------------------------------------------------------------------------------------
+  React Hooks
+UseSate
+UseEffect
+Useref  (referenece to dom elements and doesnt re render a components)
+UseMemo (memoization or caching values) returns value  returned by function
+UseCallback ( memoization or caching a function) useful when dealing with parent passes a function as prop to children.return functions reference
+UseContext 
+
+
+------------------------------------------------------------------------------------------------------------
+
+  Custom Hooks in react
+
+“A custom hook in React is a reusable function that encapsulates component logic using built-in hooks like useState,
+  useEffect, or useMemo. It allows us to share logic across components without duplicating code, 
+  while keeping components clean and focused on rendering.”
+
+🧠 Explain Why They Matter
+“Custom hooks are especially useful when multiple components need the same behavior—like fetching data, 
+  syncing with localStorage, handling forms, or tracking window size. Instead of repeating logic, 
+  we abstract it into a hook and reuse it.”
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Pure and impure components
+
+  A pure component is one that:
+  
+  Always renders the same output for the same props and state.
+  
+  Does not cause side effects during rendering.
+  
+  Does not mutate props or state directly.
+
+
+
+
+    ------------------------------------------------------------------------------------------------------------------------------------------
+
+    useSate Hook:
+
+const [count, setCount] = useState(0)
+const [color, setColor] = useState("red")
+
+setPreferences(prevPreferences => {
+  return { ...prevPreferences, theme: "dark" }
+})
+
+
+  
+  
+  
+
+
+
+
+
