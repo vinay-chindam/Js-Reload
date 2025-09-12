@@ -71,6 +71,15 @@ Vertical
 Key based sharding
 Range based sharding
 Directory based sharding
+
+-------------------------------------------------------------------------------------------------------------------------------
+    Database replication
+-------------------------------------------------------------------------------------------------------
+
+    Performance Metrics:
+
+Throughput
+Bandwidth
     
 
 
