@@ -51,10 +51,27 @@ Consisting Hashing
 
 
 -----------------------------------------------------------------------------------------------------------------------------
+Rate Limiting
+
+Bucket
+leacky bucket
+ fixed window counter
+sliding window
+
+---------------------------------------------------------------------------------------
+
+Sharding:
+ Logical
+Physical
+
+Horizontal 
+Vertical
+
+
+Key based sharding
+Range based sharding
+Directory based sharding
     
-
-
-
 
 
 
