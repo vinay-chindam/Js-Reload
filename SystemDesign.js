@@ -80,6 +80,8 @@ Directory based sharding
 
 Throughput
 Bandwidth
+Latency
+
     
 
 
