@@ -82,6 +82,14 @@ Throughput
 Bandwidth
 Latency
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+    CAP Theorem
+
+Consistency
+Availability
+Partition tolerance
+
     
 
 
