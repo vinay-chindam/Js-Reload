@@ -105,11 +105,25 @@ Partition tolerance
     Questions:
 URL shortner:
 
-Gather Requirements
+1  Gather Requirements:
+    Functional requirements
+    Non functional requirements
+2 List core entities:
+    List,collections,databases etc
+3 API or interface
+4 Data Flow
+5 High level design
+6 Deep dives
+
+
+
 API Design
 Database design
 High level design
 Deep dive
+
+
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
