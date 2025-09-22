@@ -7,3 +7,15 @@ firefox:Spyder monkey
 LTs even odd theory
 
 A REST API is an interface that allows clients (like browsers or mobile apps) to communicate with servers using standard HTTP methods like GET, POST, PUT, and DELETE.
+----------------------------------------------------------------------------------------------------------------------
+
+Cors (cross origin resource sharing)
+
+Browser side thing
+Can pass through things like postman
+
+app.use(cors()) allows all domains to intereact and risky
+app.use((cors({
+  origin:some domain that requests are allowed from
+
+}}}
