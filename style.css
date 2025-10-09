@@ -110,3 +110,96 @@ Needs a look:
 
 Combinators in css
 Grid Vs Flexbox
+
+--------------------------------------------------------------------------------------------
+
+Excellent — CSS positioning is a core topic in frontend and UI developer interviews 👇
+
+Let’s go step-by-step so you can explain it clearly and confidently.
+
+🎯 The position Property in CSS
+
+The position property defines how an element is placed in the document flow and how it’s affected by top, right, bottom, and left properties.
+
+🧩 1️⃣ static (default)
+.element {
+  position: static;
+}
+
+
+🟢 Description:
+
+This is the default position for all HTML elements.
+
+Elements follow the normal document flow.
+
+You cannot use top, left, right, bottom properties.
+
+📌 Use Case: When you don’t need special positioning.
+
+🧩 2️⃣ relative
+.element {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+
+🟢 Description:
+
+The element stays in the normal flow, but you can move it relative to its original position.
+
+The space it originally occupied remains reserved.
+
+📌 Use Case: Slight adjustments or when setting a parent for an absolutely positioned child.
+
+🧩 3️⃣ absolute
+.element {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+
+🟢 Description:
+
+The element is removed from the normal document flow.
+
+It’s positioned relative to the nearest ancestor with position: relative | absolute | fixed.
+
+If no such ancestor exists, it’s positioned relative to the <html> (document body).
+
+📌 Use Case: Tooltips, modals, or icons inside containers.
+
+🧩 4️⃣ fixed
+.element {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+🟢 Description:
+
+The element is removed from normal flow.
+
+It’s positioned relative to the viewport (the visible area of the browser).
+
+Does not move when the page scrolls.
+
+📌 Use Case: Sticky navbars, “back to top” buttons.
+
+🧩 5️⃣ sticky
+.element {
+  position: sticky;
+  top: 0;
+}
+
+
+🟢 Description:
+
+Acts like relative until the user scrolls to a certain point — then it becomes fixed.
+
+The parent container must have a height for it to work.
+
+📌 Use Case: Sticky headers or sidebars that stay visible while scrolling.
